@@ -4,8 +4,7 @@
 Setting up delivery methods
 ###########################
 
-Before we can generate our first labels we needs to setup one or multiple *Delivery Methods*.
-of PostLogistics type.
+Before we can generate our first labels we needs to setup one or multiple *Delivery Methods* of PostLogistics type.
 
 There are several possibilities of option combination. Here we won't enumarate them all, please refer to `"Barcode" web service manual`_ for an exaustive list.
 
@@ -13,10 +12,12 @@ There are several possibilities of option combination. Here we won't enumarate t
 Create delivery method
 **********************
 
-Go in *Inventory/Settings/Delivery/Delivery Methods* and create a new delivery methods
+Go in *Inventory/Settings/Delivery/Delivery Methods* and create a new delivery methods:
 
 .. image:: ../_static/img/delivery_method1-create.png
    :alt: Menu Delivery Methods
+
+Here are the steps to configure your *Delivery Method*:
 
 1. Give a name to your delivery method
 2. Choose type *PostLogistics*
@@ -42,12 +43,16 @@ Add a basic service by adding on option.
    Important: only the basic options of the selected service group will be available.
    If your option is not there, for exemple you are looking for *Bulky goods "Lightning"* this one is in *Swiss-Express / Swiss-Courier* service group.
 3. *Save and close*
+4. *Save* the *Delivery Method*
 
-Save again the delivery method (We need to refresh the list as now we will have delivery instruction allowed with the basic service)
+The delivery method ready to be used. However, you might want to add some optional services and/or delivery instructions to it.
+
 
 *******************************************
 Optional services and delivery instructions
 *******************************************
+
+Make sure you have saved the *Delivery Method* when setting the *Basic service* (We need to refresh the list of options, once refreshed delivery instruction will be available).
 
 Now you can set as many other options and delivery instructions as you need.
 
@@ -66,7 +71,7 @@ There are 3 types of options:
     e. g. You can add a delivery instruction as optional for rare case when the customer asks to be called when the package arrives.
 
 
-Here is an exemple of *Applied by default* option.
+Here is an exemple of *Applied by default* option. *Applied by Default* is checked.
 
 .. image:: ../_static/img/delivery_method3-option-default.png
    :alt: Applied by default option

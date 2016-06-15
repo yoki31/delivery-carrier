@@ -8,8 +8,9 @@ Configuration
 Here you will find how to configure Postlogistics WSBC module we just have installed.
 
 The configuration is done in:
-for Odoo 7.0 and 8.0 in *Settings/Configuration/Carriers/Postlogistics*
-for Odoo 9.0 in *Inventory/Settings/Carriers/Postlogistics*
+
+* for Odoo 7.0 and 8.0 in *Settings/Configuration/Carriers/Postlogistics*
+* for Odoo 9.0 in *Inventory/Settings/Carriers/Postlogistics*
 
 .. image:: ../_static/img/postlogistics_settings.png
    :alt: *Inventory/Settings/Carriers/Postlogistics*
@@ -21,7 +22,10 @@ Web Service Authentication
 Fill user and password with the credentials provided by Postlogistics.
 
 If you want to use a test account you have to activate the "Test Mode" check box.
-Waring, if you want to use test mode, your setup needs a patch on library suds-jurko.
+
+.. warning:: If you want to use test mode, your setup needs a patch on library ``suds-jurko``.
+
+    See `suds patch <installation.html#suds_patch>`__.
 
 
 ******************
@@ -56,7 +60,7 @@ Postlogistics recommendations are of using a black and white logo for printing i
 
 If the logo is not set, company address will be printed on the label.
 
-Plus you should specify the Domicile Post office, ask Postlogistics if you are not sure.
+Plus you need to specify the Domicile Post office, ask Postlogistics if you are not sure. e. g. 3030 Bern
 
 ***************
 Default configs
@@ -109,5 +113,3 @@ Next step
 Can we print label now?
 
 No, we are not done yet. The next step is :ref:`delivery_method_setup`.
-
-
