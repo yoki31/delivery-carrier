@@ -78,13 +78,13 @@ The option tracking numbers allows you choose how is generated the last 8 digits
 
 You have two options.
 
-The first is by default, you let PostLogistics define random numbers.
-The second is to tell Odoo to generate it and send it to the WSBC in the following format.
-The 2 first digits are for a pack counter the last 6 digits are for picking number.
+* The first is by default, you let PostLogistics define random numbers.
+* The second is to tell Odoo to generate it and send it to the WSBC in the following format.
+  The 2 first digits are for a pack counter the last 6 digits are for picking number.
 
-E.g. ``07000042`` would be the 7th pack of the picking OUT/042
+  E.g. ``07000042`` would be the 7th pack of the picking OUT/042
 
-.. note:: You can create your own module to change the generation of tracking numbers by redefining ``_get_number_item()`` method.
+  .. note:: You can create your own module to change the generation of tracking numbers by redefining ``_get_number_item()`` method.
 
 **********************************
 Synchronize Odoo options with WSBC
