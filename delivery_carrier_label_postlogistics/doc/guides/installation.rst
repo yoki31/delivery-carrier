@@ -4,7 +4,7 @@
 Installation
 ############
 
-In order to install PostLogistics WSBC module, make sur you have the following requirements and Odoo dependencies on your system.
+In order to install PostLogistics WSBC module, make sure you have the following requirements and Odoo dependencies on your system.
 
 ************
 Requirements

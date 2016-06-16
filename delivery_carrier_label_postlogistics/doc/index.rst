@@ -9,11 +9,13 @@ Odoo Postlogistics WSBC
 
 Contents:
 
-Postlogistics WSBC is an Odoo_ module to generate delivery labels for
+Odoo PostLogistics WSBC is an Odoo_ module to generate delivery labels for
 your packages. It uses `Postlogistics "Barcode" Webservice`_.
 
-Odoo Postlogistics WSBC has been developped and is maintained by Camptocamp_.
-:ref:`contributors`
+Odoo PostLogistics WSBC has been developed and is maintained by Camptocamp_.
+(:ref:`contributors`)
+
+This module is *completely Open Source* (`AGPL version 3`_),: the full `source code is available on GitHub`_
 
 *Learn how to* :ref:`contribute`
 
