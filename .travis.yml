@@ -16,8 +16,11 @@ env:
   global:
   - VERSION="9.0" TESTS="0" LINT_CHECK="0" TRANSIFEX="0"
   - TRANSIFEX_USER='transbot@odoo-community.org'
-  # travis for docs build
-  - secure: "lazdZGpkqFTQiu44grYAqKcaGh0cVTBlrHcBxxs43K/OH4Uc2AjMBty83zKc0ZgzizrNOsfK3Z3UHLmTNI92Vi3PtgGzA9dUmiReGO6QcE9P31Geg4pN/1Fwosv6aSpG3hejJJ8ZYpMbEPJkZyjTVpdM2r1VEcqEvFQ2xR5bEUg="
+  # Token for Travis docs build generated with:
+  # $ travis encrypt GH_TOKEN=xxxxxx -r OCA/carrier-delivery
+  # Where xxxxxx is the GitHub token which needs only the 'public_repo'
+  # right.
+  - secure: "GxWNQvrG6K20IOoeVwbI+RR5+eWg41bmTCBJbLJfiXLfj27LZSugRkuKj4vGEbyRU+0jFHjbY9mmQ54iATps9DPtR5bh0FgmwPWssmUVZP54xmeAbVmmHSODnp3ArKC3595AIjTCcn8bET6bDXgaE7ya4TJwj3ryO61lO9UXvv4="
   # transifex
   - secure: "WspsOy3m3Arreqs+f8QAnKOCPbXfpO7TeUJEfJSMehMh8I+bR1KFZM0CUfKxNOT9mrbt94J9VzF3knC2p4P/lUWr24USJ27FgOScnTz/PQTjZfjdXDefGdhCCx3QgIzI/mj751BYp2FMBYXEvjaBSycerWJ+AP+OKVEdf44Lgp0="
 
