@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Yannick Vaucher, Camptocamp
+# This file is distributed under the same license as the PostLogistics WSBC
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PostLogistics WSBC 9.0.1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-29 16:11+0200\n"
+"PO-Revision-Date: 2016-06-16 16:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../index.rst:8
+msgid "Odoo Postlogistics WSBC"
+msgstr "Odoo Postlogistics WSBC"
+
+#: ../../index.rst:10
+msgid "Contents:"
+msgstr "Contenu:"
+
+#: ../../index.rst:12
+#, fuzzy
+msgid ""
+"Odoo PostLogistics WSBC is an Odoo_ module to generate delivery labels "
+"for your packages. It uses `Postlogistics \"Barcode\" Webservice`_."
+msgstr ""
+"PostLogistics WSBC est un module Odoo_ qui permet de générer des "
+"étiquettes de livraison pour vos paquets. Il utilise le `Webservice Code "
+"à barres de PostLogistics`_."
+
+#: ../../index.rst:15
+#, fuzzy
+msgid ""
+"Odoo PostLogistics WSBC has been developed and is maintained by "
+"Camptocamp_. (:ref:`contributors`)"
+msgstr ""
+"Odoo PostLogistics WSBC a été développé et est maintenu par Camptocamp_. "
+"(:ref:`contributors`)"
+
+#: ../../index.rst:18
+msgid ""
+"This module is *completely Open Source* (`AGPL version 3`_),: the full "
+"`source code is available on GitHub`_"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "*Learn how to* :ref:`contribute`"
+msgstr "*Découvrez comment* :ref:`contribute`"
+
+#: ../../index.rst:33
+msgid "Project"
+msgstr "Projet"
+
+#: ../../index.rst:46
+msgid "Configuration's guide"
+msgstr "Guide de configuration"
+
+#: ../../index.rst:58
+msgid "Indices and tables"
+msgstr "Index et tables"
+
+#: ../../index.rst:60
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../index.rst:61
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../../index.rst:62
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+

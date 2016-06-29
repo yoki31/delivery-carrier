@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Yannick Vaucher, Camptocamp
+# This file is distributed under the same license as the PostLogistics WSBC
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PostLogistics WSBC 9.0.1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-29 16:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../project/changes.rst:5
+msgid "Changes"
+msgstr ""
+
+#: ../../project/contribute.rst:5
+msgid "Contribute"
+msgstr ""
+
+#: ../../project/contribute.rst:7
+msgid "We accept with pleasure all type of contributions:"
+msgstr ""
+
+#: ../../project/contribute.rst:9
+msgid "bug reports"
+msgstr ""
+
+#: ../../project/contribute.rst:10
+msgid "pull requests"
+msgstr ""
+
+#: ../../project/contribute.rst:11
+msgid "ideas"
+msgstr ""
+
+#: ../../project/contribute.rst:12
+msgid "translations"
+msgstr ""
+
+#: ../../project/contribute.rst:13
+msgid "..."
+msgstr ""
+
+#: ../../project/contribute.rst:15
+msgid "The GitHub project is: https://github.com/OCA/carrier-delivery"
+msgstr ""
+
+#: ../../project/contribute.rst:19
+msgid "Want to start with a new carrier"
+msgstr ""
+
+#: ../../project/contribute.rst:21
+msgid ""
+"If you want to start using the webservice of another carrier, you will "
+"want to extend the module `base_delivery_carrier_label`."
+msgstr ""
+
+#: ../../project/contribute.rst:24
+msgid ""
+"You can have a look at existing implementations (`PostLogistics WSBC`_, "
+"`GLS Group - Transportation services`_)."
+msgstr ""
+
+#: ../../project/contribute.rst:27
+msgid ""
+"Then you can make a pull request to add your new module in `carrier-"
+"delivery`_"
+msgstr ""
+
+#: ../../project/contribute.rst:35
+msgid "Creating or maintaining a translation of this doc"
+msgstr ""
+
+#: ../../project/contribute.rst:37
+msgid ""
+"Install Odoo, its dependencies, sphinx, sphinx_bootstrap_theme and "
+"sphinx-intl"
+msgstr ""
+
+#: ../../project/contribute.rst:39
+msgid ""
+"Add `this patch <https://bitbucket.org/shimizukawa/sphinx-intl/pull-"
+"request/9/>`_ to sphinx-intl (until merged) to support *fuzzy* "
+"translations"
+msgstr ""
+
+#: ../../project/contribute.rst:42
+msgid "create an empty database with the connector module installed"
+msgstr ""
+
+#: ../../project/contribute.rst:43
+msgid "``cd delivery_carrier_label_postlogistics/doc``"
+msgstr ""
+
+#: ../../project/contribute.rst:44
+msgid "rebuild the gettext .pot source catalogs: ``make gettext``"
+msgstr ""
+
+#: ../../project/contribute.rst:45
+msgid ""
+"update the .po translation files from the latest .pot files (here for "
+"language 'fr'): ``sphinx-intl update -l fr -p _build/locale``"
+msgstr ""
+
+#: ../../project/contribute.rst:47
+msgid ""
+"create or edit the translation in the .po files: ``poedit "
+"locale/fr/LC_MESSAGES/*.po``"
+msgstr ""
+
+#: ../../project/contribute.rst:49
+msgid "compile the .po files into .mo files: ``sphinx-intl build``"
+msgstr ""
+
+#: ../../project/contribute.rst:50
+msgid ""
+"build the translated documentation to html: ``make "
+"SPHINXOPTS=\"-Dlanguage=fr\" html``"
+msgstr ""
+
+#: ../../project/contribute.rst:53
+msgid ""
+"Then you can see the result in _build/html/ and submit a Pull Request. "
+"Repeat the 5 last steps to update the translation if modified upstream."
+msgstr ""
+
+#: ../../project/contributors.rst:5
+msgid "Contributors"
+msgstr ""
+
+#: ../../project/contributors.rst:7
+msgid "List of contributors:"
+msgstr ""
+
+#: ../../../AUTHORS:1
+msgid "Yannick Vaucher at Camptocamp"
+msgstr ""
+
+#: ../../../AUTHORS:2
+msgid "Guewen Baconnier at Camptocamp"
+msgstr ""
+
+#: ../../project/license.rst:5
+msgid "License"
+msgstr ""
+
+#: ../../project/license.rst:7
+msgid "This work is licensed under the AGPL3 license."
+msgstr ""
+
+#: ../../project/roadmap.rst:5
+msgid "Roadmap"
+msgstr ""
+
+#: ../../project/roadmap.rst:7
+msgid "Add support for Pro Climate logo."
+msgstr ""
+
+#: ../../project/roadmap.rst:8
+msgid ""
+"Automatically set partner on delivery method when selecting type "
+"PostLogistics."
+msgstr ""
+
+#: ../../project/roadmap.rst:9
+msgid ""
+"Fill tracking number field of picking with all tracking numbers separated"
+" by semicolon when using packs."
+msgstr ""
+
+#~ msgid ""
+#~ "XXX The same using a `buildout "
+#~ "<https://bitbucket.org/anybox/public_buildbot_buildouts/src/tip"
+#~ "/odoo-connector.cfg>`_::"
+#~ msgstr ""
+
+#~ msgid "Here is a list of things we may agree to merge."
+#~ msgstr ""
+
+#~ msgid "Queue: use PostgreSQL `notify` for direct enqueue of jobs"
+#~ msgstr ""
+
+#~ msgid "See: https://github.com/OCA/connector/pull/52"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add facilities to parse the errors "
+#~ "from the jobs so we can replace"
+#~ " it by more contextual and helpful"
+#~ " errors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A logger which keeps in a buffer"
+#~ " all the logs and flushes them "
+#~ "when an error occurs in a "
+#~ "synchronization, clears them if it "
+#~ "succeeded"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Job Channels: each job is owned by"
+#~ " a channel and workers can be "
+#~ "dedicated to one channel only"
+#~ msgstr ""
+
