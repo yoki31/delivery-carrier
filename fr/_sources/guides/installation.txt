@@ -28,7 +28,7 @@ Odoo dependencies
 
 This module depends on module `base_delivery_carrier_label` you will find in the same module repository on https://github.com/OCA/carrier-delivery/
 
-Plus, if you are not using this module with automated tools, you will want to install **Attachments List and Document Indexation** (`document`) module. Otherwise you want be able to use the labels as they are created as attachments.
+Plus, if you are not using this module with automated tools, you will want to install **Attachments List and Document Indexation** (`document`) module. Otherwise you won't be able to see the labels as they are created as attachments.
 
 Next step
 =========

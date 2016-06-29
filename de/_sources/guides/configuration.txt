@@ -74,7 +74,7 @@ those format options in delivery method or on the picking.
 Tracking numbers
 ****************
 
-The option tracking numbers allows you choose how is generated the last 8 digits of the tracking number.
+The option tracking numbers allows you choose how are generated the last 8 digits of the tracking number.
 
 You have two options.
 
