@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Roadmap &mdash; documentation PostLogistics WSBC 9.0.1.1.0</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0.1.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="documentation PostLogistics WSBC 9.0.1.1.0" href="../index.html" />
+    <link rel="next" title="Installation" href="../guides/installation.html" />
+    <link rel="prev" title="Changes" href="changes.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="roadmap">
+<span id="id1"></span><h1>Roadmap<a class="headerlink" href="#roadmap" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Here is a list of things we may agree to merge.</p>
+<ul>
+<li><p class="first">Queue: use PostgreSQL <cite>notify</cite> for direct enqueue of jobs</p>
+<p>See: <a class="reference external" href="https://github.com/OCA/connector/pull/52">https://github.com/OCA/connector/pull/52</a></p>
+</li>
+<li><p class="first">Add facilities to parse the errors from the jobs so we can replace it
+by more contextual and helpful errors.</p>
+</li>
+<li><p class="first">A logger which keeps in a buffer all the logs and flushes them when an error
+occurs in a synchronization, clears them if it succeeded</p>
+</li>
+<li><p class="first">Job Channels: each job is owned by a channel and workers can be
+dedicated to one channel only</p>
+<p>See: <a class="reference external" href="https://github.com/OCA/connector/pull/52">https://github.com/OCA/connector/pull/52</a></p>
+</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="changes.html" title="Chapitre précédent">Changes</a></li>
+      <li>Next: <a href="../guides/installation.html" title="Chapitre suivant">Installation</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Cette page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/project/roadmap.txt"
+            rel="nofollow">Montrer le code source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Yannick Vaucher, Camptocamp.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/project/roadmap.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

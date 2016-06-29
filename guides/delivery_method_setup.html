@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Setting up delivery methods &mdash; PostLogistics WSBC 9.0.1.1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0.1.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="PostLogistics WSBC 9.0.1.1.0 documentation" href="../index.html" />
+    <link rel="next" title="Usage" href="usage.html" />
+    <link rel="prev" title="Configuration" href="configuration.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="setting-up-delivery-methods">
+<span id="delivery-method-setup"></span><h1>Setting up delivery methods<a class="headerlink" href="#setting-up-delivery-methods" title="Permalink to this headline">¶</a></h1>
+<p>Before we can generate our first labels we needs to setup one or multiple <em>Delivery Methods</em> of PostLogistics type.</p>
+<p>There are several possibilities of option combination. Here we won&#8217;t enumerate them all, please refer to <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">&#8220;Barcode&#8221; web service manual</a> for an exhaustive list.</p>
+<div class="section" id="create-delivery-method">
+<h2>Create delivery method<a class="headerlink" href="#create-delivery-method" title="Permalink to this headline">¶</a></h2>
+<p>Go in <em>Inventory/Settings/Delivery/Delivery Methods</em> and create a new <em>Delivery Methods</em>:</p>
+<img alt="Menu Delivery Methods" src="../_images/delivery_method1-create.png" />
+<p>Here are the steps to configure your <em>Delivery Method</em>:</p>
+<ol class="arabic simple">
+<li>Give a name to your delivery method</li>
+<li>In <strong>Type</strong> choose <em>PostLogistics</em></li>
+<li>Choose a <strong>PostLogistics Service Group</strong>. Refer to <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">&#8220;Barcode&#8221; web service manual</a> to know which services are included in each group.
+You most likely want to select &#8220;Parcel&#8221; service group here.</li>
+<li>Optionally select a license. If you have done the step to with the button <em>Assign PostLogistics to service groups</em> it will try detect which license to use.</li>
+<li>Choose <strong>Transporter company</strong> selecting <em>PostLogistics</em></li>
+</ol>
+<p>Save (This is an important step as it will refresh the available options)</p>
+</div>
+<div class="section" id="basic-service">
+<h2>Basic service<a class="headerlink" href="#basic-service" title="Permalink to this headline">¶</a></h2>
+<p>Add a basic service by adding on option.</p>
+<img alt="Menu Delivery Methods" src="../_images/delivery_method2.png" />
+<ol class="arabic">
+<li><p class="first">Check mandatory.</p>
+</li>
+<li><p class="first">Choose a basic service</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Only the basic options of the selected service group will be available.</p>
+<p class="last">If your option is not there change the service group, for example you are looking for <em>Bulky goods &#8220;Lightning&#8221;</em> this one is in <em>Swiss-Express / Swiss-Courier</em> service group.</p>
+</div>
+</li>
+<li><p class="first"><em>Save and close</em></p>
+</li>
+<li><p class="first"><em>Save</em> the <em>Delivery Method</em></p>
+</li>
+</ol>
+<p>The delivery method is ready to be used. However, you might want to add some optional services and/or delivery instructions to it.</p>
+</div>
+<div class="section" id="optional-services-and-delivery-instructions">
+<h2>Optional services and delivery instructions<a class="headerlink" href="#optional-services-and-delivery-instructions" title="Permalink to this headline">¶</a></h2>
+<p>Make sure you have saved the <em>Delivery Method</em> when setting the <em>Basic service</em> (We need to refresh the list of options, once refreshed delivery instruction will be available).</p>
+<p>Now you can set as many other options and delivery instructions as you need.</p>
+<p>There are 3 types of options:</p>
+<ul class="simple">
+<li><strong>Mandatory</strong>: Each Delivery order with this delivery method will have this option. It is a good practice to set the basic service (e.g. ECO) as mandatory as you want always a basic service when generating labels.</li>
+<li><strong>Applied by default</strong>: This option will be added on the delivery order. This one can be removed by the logistician.</li>
+<li><strong>Optional</strong>: This one won&#8217;t be added on the delivery order. It becomes an allowed option, settable on the delivery order.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Options will be copied from the <em>Delivery Method</em> to the <em>Delivery order</em> when selecting the <em>Delivery method</em> on the <em>Delivery Order</em>.</p>
+<p>Defining options as non mandatory gives liberty for the logistician to do few changes to configure the labels.
+And then when generating the shipping label, options on the delivery order will be used.</p>
+<p class="last">This can be useful to manage extraordinary case manualy on the delivery order.
+e.g. You can add a delivery instruction as optional for rare case when the customer asks to be called when the package arrives.</p>
+</div>
+<p>Here is an example of <em>Applied by default</em> option. <em>Applied by Default</em> is checked.</p>
+<img alt="Applied by default option" src="../_images/delivery_method3-option-default.png" />
+<p>And here an optional option, we simply leave empty the two check boxes.</p>
+<img alt="Optional option" src="../_images/delivery_method4-option-optional.png" />
+</div>
+<div class="section" id="output-format">
+<h2>Output format<a class="headerlink" href="#output-format" title="Permalink to this headline">¶</a></h2>
+<p>You can also add options to override output format. Otherwise the resulting label will be generated using default values set in PostLogistics settings.</p>
+<div class="section" id="next-step">
+<h3>Next step<a class="headerlink" href="#next-step" title="Permalink to this headline">¶</a></h3>
+<p>And we are done for the setup.</p>
+<p>See the next page for <a class="reference internal" href="usage.html#usage"><span class="std std-ref">Usage</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Setting up delivery methods</a><ul>
+<li><a class="reference internal" href="#create-delivery-method">Create delivery method</a></li>
+<li><a class="reference internal" href="#basic-service">Basic service</a></li>
+<li><a class="reference internal" href="#optional-services-and-delivery-instructions">Optional services and delivery instructions</a></li>
+<li><a class="reference internal" href="#output-format">Output format</a><ul>
+<li><a class="reference internal" href="#next-step">Next step</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="configuration.html" title="previous chapter">Configuration</a></li>
+      <li>Next: <a href="usage.html" title="next chapter">Usage</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/guides/delivery_method_setup.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Yannick Vaucher, Camptocamp.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/guides/delivery_method_setup.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

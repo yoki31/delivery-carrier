@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Usage &mdash; PostLogistics WSBC 9.0.1.1.0 Dokumentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0.1.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="PostLogistics WSBC 9.0.1.1.0 Dokumentation" href="../index.html" />
+    <link rel="prev" title="Setting up delivery methods" href="delivery_method_setup.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="usage">
+<span id="id1"></span><h1>Usage<a class="headerlink" href="#usage" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Now that we are set, we can use our <em>Delivery methods</em> in <em>Sales orders</em> and <em>Delivery orders</em>.</p>
+<p>Labels can be generated in two ways.</p>
+<ul class="simple">
+<li>A single label for the <em>Delivery Order</em></li>
+<li>One label per package</li>
+</ul>
+<p>Here the resulting label we will be generating.</p>
+<img alt="Label" src="../_images/label.png" />
+<p>To use packages, you should enable option <em>Record packages used on packing</em> in <em>Inventory/Settings</em>.</p>
+<p>Here is how to use our <em>Delivery methods</em> when creating a new <em>Delivery Order</em>.</p>
+<div class="section" id="select-a-carrier">
+<h2>Select a Carrier<a class="headerlink" href="#select-a-carrier" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In tab <strong>Additional Info</strong> select the delivery method we created under field carrier.
+This action will copy the mandatory options and the options by default.</p>
+<img alt="Select a Carrier" src="../_images/picking_out1-carrier.png" />
+</div>
+<div class="section" id="choose-options">
+<h2>Choose options<a class="headerlink" href="#choose-options" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Optionally, add or remove options. Only the options you have configured in the <em>Delivery Method</em> will me available.</p>
+<p>In next capture your see that only ZAW3213 is available. This is because we added in as optional option in the <em>Delivery Method</em>.</p>
+<img alt="Available option" src="../_images/picking_out2-option.png" />
+</div>
+<div class="section" id="delivery-instructions">
+<h2>Delivery instructions<a class="headerlink" href="#delivery-instructions" title="Link zu dieser Überschrift">¶</a></h2>
+<p>For delivery instruction (Options with ZAW code) you will find the extra fields to fill under options when extra data is required.
+E.g. You can define phone number for <em>ZAW3213</em> for phone notification.</p>
+</div>
+<div class="section" id="generate-label-s">
+<h2>Generate Label(s)<a class="headerlink" href="#generate-label-s" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Once your picking is in state <em>Done</em>, you can generate the labels.
+If you are using packs, one label per pack will be generated with a different tracking number.</p>
+<p>Use the button on the top left to launch the generation.</p>
+<img alt="Create Shipping Label button" src="../_images/picking_out3-button.png" />
+</div>
+<div class="section" id="where-is-my-label">
+<h2>Where is my label?<a class="headerlink" href="#where-is-my-label" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Your label(s) will appear in attachments of the Delivery Order.</p>
+<img alt="Label in attachements" src="../_images/picking_out4-attachment.png" />
+<div class="admonition important">
+<p class="first admonition-title">Wichtig</p>
+<p class="last">To see attachment you need <strong>Attachments List and Document Indexation</strong> (<cite>document</cite>) module.</p>
+</div>
+</div>
+<div class="section" id="where-can-i-get-the-tracking-reference">
+<h2>Where can I get the tracking reference?<a class="headerlink" href="#where-can-i-get-the-tracking-reference" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Once you have generated the labels, your tracking reference will be written:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>In <strong>Carrier Tracking Ref</strong> field on picking if you are not using packs.</dt>
+<dd><img alt="Tracking ref on Delivery Order" class="first last" src="../_images/picking_out5-tracking_ref.png" />
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>In <strong>Parcel Tracking</strong> field on package if you are using packages.</dt>
+<dd><img alt="Tracking ref on package" class="first last" src="../_images/package-tracking_ref.png" />
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Inhalt</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Usage</a><ul>
+<li><a class="reference internal" href="#select-a-carrier">Select a Carrier</a></li>
+<li><a class="reference internal" href="#choose-options">Choose options</a></li>
+<li><a class="reference internal" href="#delivery-instructions">Delivery instructions</a></li>
+<li><a class="reference internal" href="#generate-label-s">Generate Label(s)</a></li>
+<li><a class="reference internal" href="#where-is-my-label">Where is my label?</a></li>
+<li><a class="reference internal" href="#where-can-i-get-the-tracking-reference">Where can I get the tracking reference?</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="delivery_method_setup.html" title="vorheriges Kapitel">Setting up delivery methods</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Diese Seite</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/guides/usage.txt"
+            rel="nofollow">Quellcode anzeigen</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Schnellsuche</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Los" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Yannick Vaucher, Camptocamp.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/guides/usage.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

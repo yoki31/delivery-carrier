@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Contribute &mdash; documentation PostLogistics WSBC 9.0.1.1.0</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0.1.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="documentation PostLogistics WSBC 9.0.1.1.0" href="../index.html" />
+    <link rel="next" title="Contributors" href="contributors.html" />
+    <link rel="prev" title="Odoo Postlogistics WSBC" href="../index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="contribute">
+<span id="id1"></span><h1>Contribute<a class="headerlink" href="#contribute" title="Lien permanent vers ce titre">¶</a></h1>
+<p>We accept with pleasure all type of contributions:</p>
+<ul class="simple">
+<li>bug reports</li>
+<li>pull requests</li>
+<li>ideas</li>
+<li>translations</li>
+<li>...</li>
+</ul>
+<p>The GitHub project is: <a class="reference external" href="https://github.com/OCA/carrier-delivery">https://github.com/OCA/carrier-delivery</a></p>
+<div class="section" id="want-to-start-with-a-new-carrier">
+<h2>Want to start with a new carrier<a class="headerlink" href="#want-to-start-with-a-new-carrier" title="Lien permanent vers ce titre">¶</a></h2>
+<p>If you want to start using the webservice of another carrier,
+you will want to extend the module <cite>base_delivery_carrier_label</cite>.</p>
+<p>You can have a look at existing implementations (<a class="reference external" href="https://github.com/OCA/carrier-delivery/tree/9.0/delivery_carrier_label_postlogistics">PostLogistics WSBC</a>,
+<a class="reference external" href="https://github.com/OCA/carrier-delivery/tree/8.0/delivery_carrier_label_gls">GLS Group - Transportation services</a>).</p>
+<p>Then you can make a pull request to add your new module in <a href="#id2"><span class="problematic" id="id3">`carrier-delivery`_</span></a></p>
+</div>
+<div class="section" id="creating-or-maintaining-a-translation-of-this-doc">
+<h2>Creating or maintaining a translation of this doc<a class="headerlink" href="#creating-or-maintaining-a-translation-of-this-doc" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li>Install Odoo, its dependencies, sphinx, sphinx_bootstrap_theme and
+sphinx-intl</li>
+<li>Add <a class="reference external" href="https://bitbucket.org/shimizukawa/sphinx-intl/pull-request/9/">this patch</a>
+to sphinx-intl (until merged) to support <em>fuzzy</em> translations</li>
+<li>create an empty database with the connector module installed</li>
+<li><code class="docutils literal"><span class="pre">cd</span> <span class="pre">delivery_carrier_label_postlogistics/doc</span></code></li>
+<li>rebuild the gettext .pot source catalogs: <code class="docutils literal"><span class="pre">make</span> <span class="pre">gettext</span></code></li>
+<li>update the .po translation files from the latest .pot files (here for
+language &#8216;fr&#8217;): <code class="docutils literal"><span class="pre">sphinx-intl</span> <span class="pre">update</span> <span class="pre">-l</span> <span class="pre">fr</span> <span class="pre">-p</span> <span class="pre">_build/locale</span></code></li>
+<li>create or edit the translation in the .po files: <code class="docutils literal"><span class="pre">poedit</span>
+<span class="pre">locale/fr/LC_MESSAGES/*.po</span></code></li>
+<li>compile the .po files into .mo files: <code class="docutils literal"><span class="pre">sphinx-intl</span> <span class="pre">build</span></code></li>
+<li>build the translated documentation to html: <code class="docutils literal"><span class="pre">make</span> <span class="pre">SPHINXOPTS=&quot;-Dlanguage=fr&quot;</span>
+<span class="pre">html</span></code></li>
+</ul>
+<p>Then you can see the result in _build/html/ and submit a Pull Request. Repeat the 5 last steps to update the translation if modified upstream.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Contribute</a><ul>
+<li><a class="reference internal" href="#want-to-start-with-a-new-carrier">Want to start with a new carrier</a></li>
+<li><a class="reference internal" href="#creating-or-maintaining-a-translation-of-this-doc">Creating or maintaining a translation of this doc</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../index.html" title="Chapitre précédent">Odoo Postlogistics WSBC</a></li>
+      <li>Next: <a href="contributors.html" title="Chapitre suivant">Contributors</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Cette page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/project/contribute.txt"
+            rel="nofollow">Montrer le code source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Yannick Vaucher, Camptocamp.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/project/contribute.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
