@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Setting up delivery methods &mdash; documentation PostLogistics WSBC 9.0.1.1.0</title>
+    <title>Définir des méthodes de livraison &mdash; documentation PostLogistics WSBC 9.0.1.1.0</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -30,7 +30,7 @@
     <script type="text/javascript" src="../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <link rel="top" title="documentation PostLogistics WSBC 9.0.1.1.0" href="../index.html" />
-    <link rel="next" title="Usage" href="usage.html" />
+    <link rel="next" title="Utilisation" href="usage.html" />
     <link rel="prev" title="Configuration" href="configuration.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -81,34 +81,34 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installation.html#requirements">Requirements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="installation.html#odoo-dependencies">Odoo dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#requirements">Prérequis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#odoo-dependencies">Dépendances Odoo</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#web-service-authentication">Web Service Authentication</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#frankling-licenses">Frankling Licenses</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#sender-information">Sender Information</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#default-configs">Default configs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#tracking-numbers">Tracking numbers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#synchronize-odoo-options-with-wsbc">Synchronize Odoo options with WSBC</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#assign-licenses-to-service-groups">Assign licenses to Service groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#web-service-authentication">Authentification du service web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#frankling-licenses">Licences d&#8217;affranchisement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#sender-information">Informations de l&#8217;expéditeur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#default-configs">Configurations par défaut</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#tracking-numbers">Numéros de tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#synchronize-odoo-options-with-wsbc">Synchroniser les options Odoo avec WSBC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#assign-licenses-to-service-groups">Assignez les licences au groupes de service</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up delivery methods</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#create-delivery-method">Create delivery method</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#basic-service">Basic service</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#optional-services-and-delivery-instructions">Optional services and delivery instructions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#output-format">Output format</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Définir des méthodes de livraison</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-delivery-method">Créer une méthode de livraison</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-service">Service Basique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optional-services-and-delivery-instructions">Services optionnels et instructions de livraison</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output-format">Format de sortie</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#select-a-carrier">Select a Carrier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#choose-options">Choose options</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#delivery-instructions">Delivery instructions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#generate-label-s">Generate Label(s)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#where-is-my-label">Where is my label?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#where-can-i-get-the-tracking-reference">Where can I get the tracking reference?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Utilisation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#select-a-carrier">Sélectionner un transporteur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#choose-options">Sélectionner des options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#delivery-instructions">Instructions de livraison</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#generate-label-s">Générer des étiquettes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#where-is-my-label">Où est mon étiquette ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#where-can-i-get-the-tracking-reference">Où puis-je obtenir la référence de suivi ?</a></li>
 </ul>
 </li>
 </ul>
@@ -124,12 +124,12 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Setting up delivery methods</a><ul>
-<li><a class="reference internal" href="#create-delivery-method">Create delivery method</a></li>
-<li><a class="reference internal" href="#basic-service">Basic service</a></li>
-<li><a class="reference internal" href="#optional-services-and-delivery-instructions">Optional services and delivery instructions</a></li>
-<li><a class="reference internal" href="#output-format">Output format</a><ul>
-<li><a class="reference internal" href="#next-step">Next step</a></li>
+<li><a class="reference internal" href="#">Définir des méthodes de livraison</a><ul>
+<li><a class="reference internal" href="#create-delivery-method">Créer une méthode de livraison</a></li>
+<li><a class="reference internal" href="#basic-service">Service Basique</a></li>
+<li><a class="reference internal" href="#optional-services-and-delivery-instructions">Services optionnels et instructions de livraison</a></li>
+<li><a class="reference internal" href="#output-format">Format de sortie</a><ul>
+<li><a class="reference internal" href="#next-step">Prochaine étape</a></li>
 </ul>
 </li>
 </ul>
@@ -147,7 +147,7 @@
     </a>
   </li>
   <li>
-    <a href="usage.html" title="Next Chapter: Usage"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Usage &raquo;</span>
+    <a href="usage.html" title="Next Chapter: Utilisation"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Utilisation &raquo;</span>
     </a>
   </li>
               
@@ -176,75 +176,80 @@
     <div class="col-md-12 content">
       
   <div class="section" id="setting-up-delivery-methods">
-<span id="delivery-method-setup"></span><h1>Setting up delivery methods<a class="headerlink" href="#setting-up-delivery-methods" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Before we can generate our first labels we needs to setup one or multiple <em>Delivery Methods</em> of PostLogistics type.</p>
-<p>There are several possibilities of option combination. Here we won&#8217;t enumerate them all, please refer to <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">&#8220;Barcode&#8221; web service manual</a> for an exhaustive list.</p>
+<span id="delivery-method-setup"></span><h1>Définir des méthodes de livraison<a class="headerlink" href="#setting-up-delivery-methods" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Avant de pouvoir générer nos premières étiquettes nous avons besoin de définir une ou plusieurs <em>Méthodes de livraison</em> du type PostLogistics.</p>
+<p>Il existe de nombreuses combinaison d&#8217;option disponibles que nous n&#8217;énumérerons pas ici. Pour en obtenir une liste exhaustive référez vous en au <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">Manuel Webservice &#8220;Code à barres&#8221;</a>.</p>
 <div class="section" id="create-delivery-method">
-<h2>Create delivery method<a class="headerlink" href="#create-delivery-method" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Go in <em>Inventory/Settings/Delivery/Delivery Methods</em> and create a new <em>Delivery Methods</em>:</p>
+<h2>Créer une méthode de livraison<a class="headerlink" href="#create-delivery-method" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Allez dans <em>Inventaire/Configuration/Livraison/Méthodes de livraison</em> et créer un nouvelle <em>Méthode de livraison</em> :</p>
 <img alt="Menu Delivery Methods" src="../_images/delivery_method1-create.png" />
-<p>Here are the steps to configure your <em>Delivery Method</em>:</p>
+<p>Voici les étapes pour configurer votre <em>Méthode de livraison</em>:</p>
 <ol class="arabic simple">
-<li>Give a name to your delivery method</li>
-<li>In <strong>Type</strong> choose <em>PostLogistics</em></li>
-<li>Choose a <strong>PostLogistics Service Group</strong>. Refer to <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">&#8220;Barcode&#8221; web service manual</a> to know which services are included in each group.
-You most likely want to select &#8220;Parcel&#8221; service group here.</li>
-<li>Optionally select a license. If you have done the step to with the button <em>Assign PostLogistics to service groups</em> it will try detect which license to use.</li>
-<li>Choose <strong>Transporter company</strong> selecting <em>PostLogistics</em></li>
+<li><p class="first">Donnez un nom à votre méthode de livraison</p>
+</li>
+<li><p class="first">Choisissez <em>PostLogistics</em> dans le champs <strong>Type</strong></p>
+</li>
+<li><p class="first">Choisissez un <em>Groupe de service</em>. Référer vous au <a class="reference external" href="https://www.post.ch/-/media/post/gk/dokumente/barcode-handbuch.pdf?la=en&amp;vs=2">Manuel Webservice &#8220;Code à barres&#8221;</a> pour savoir quel service est inclut dans chaque groupe. Ici, vous allez probablement vouloir sélectionner le groupe de service &#8220;Colis&#8221;.</p>
+</li>
+<li><p class="first">Optionnellement sélectionnez une licence. Si vous avez effectuer l&#8217;étape avec le bouton <em>Assigner les licences PostLogistics à un groupe de service</em> un essai de détection sera effectué pour savoir quelle licence utiliser.</p>
+</li>
+<li><p class="first">Définissez la <strong>Société de transport</strong> en sélectionnant <em>PostLogistics</em></p>
+</li>
 </ol>
-<p>Save (This is an important step as it will refresh the available options)</p>
+<p>Sauvez (Cette étape est important car elle va rafraîchir les options disponible)</p>
 </div>
 <div class="section" id="basic-service">
-<h2>Basic service<a class="headerlink" href="#basic-service" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Add a basic service by adding on option.</p>
+<h2>Service Basique<a class="headerlink" href="#basic-service" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Ajouter un service basique en ajoutant une option.</p>
 <img alt="Menu Delivery Methods" src="../_images/delivery_method2.png" />
 <ol class="arabic">
-<li><p class="first">Check mandatory.</p>
+<li><p class="first">Cochez obligatoire.</p>
 </li>
-<li><p class="first">Choose a basic service</p>
+<li><p class="first">Choisissez un service de base</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>Only the basic options of the selected service group will be available.</p>
-<p class="last">If your option is not there change the service group, for example you are looking for <em>Bulky goods &#8220;Lightning&#8221;</em> this one is in <em>Swiss-Express / Swiss-Courier</em> service group.</p>
+<p>Seulement les options de base du groupe de service sélectionné seront disponible.</p>
+<p class="last">Si votre option n&#8217;est pas la essayez de sélectionner un autre groupe de service, par exemple si vous cherchez <em>Encombrant &#8220;Eclair&#8221;</em> celui ci est dans le groupe de service <em>Exprès / Coursier</em>.</p>
 </div>
 </li>
-<li><p class="first"><em>Save and close</em></p>
+<li><p class="first"><em>Sauvegarder &amp; fermer</em></p>
 </li>
-<li><p class="first"><em>Save</em> the <em>Delivery Method</em></p>
+<li><p class="first"><em>Sauvegarder</em> la <em>Méthode de livraison</em></p>
 </li>
 </ol>
-<p>The delivery method is ready to be used. However, you might want to add some optional services and/or delivery instructions to it.</p>
+<p>La méthode de livraison est prête à l&#8217;emploi. Cependant, vous pourriez vouloir ajouter quelques services et/ou des instructions de livraison.</p>
 </div>
 <div class="section" id="optional-services-and-delivery-instructions">
-<h2>Optional services and delivery instructions<a class="headerlink" href="#optional-services-and-delivery-instructions" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Make sure you have saved the <em>Delivery Method</em> when setting the <em>Basic service</em> (We need to refresh the list of options, once refreshed delivery instruction will be available).</p>
-<p>Now you can set as many other options and delivery instructions as you need.</p>
-<p>There are 3 types of options:</p>
+<h2>Services optionnels et instructions de livraison<a class="headerlink" href="#optional-services-and-delivery-instructions" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Assurez vous que vous avez sauvegardé la <em>Méthode de livraison</em> lors de la configuration du <em>Service de base</em> (Nous devons rafraîchir la liste d&#8217;options, une fois rafraîchie les instructions de livraison seront disponible).</p>
+<p>Maintenant vous pouvez définir autant d&#8217;autre option et d&#8217;instruction de livraison dont vous avez besoin.</p>
+<p>Il y a 3 types d&#8217;options:</p>
 <ul class="simple">
-<li><strong>Mandatory</strong>: Each Delivery order with this delivery method will have this option. It is a good practice to set the basic service (e.g. ECO) as mandatory as you want always a basic service when generating labels.</li>
-<li><strong>Applied by default</strong>: This option will be added on the delivery order. This one can be removed by the logistician.</li>
-<li><strong>Optional</strong>: This one won&#8217;t be added on the delivery order. It becomes an allowed option, settable on the delivery order.</li>
+<li><p class="first"><strong>Obligatoire</strong> : Chaque bon de livraison avec cette méthode de livraison aura cette option. C&#8217;est une bonne pratique de définir le service de base (ex. ECO) en obligatoire car vous aurez toujours besoin d&#8217;un service de base lors de la génération d&#8217;étiquette.</p>
+</li>
+<li><p class="first"><strong>Appliqué par défaut</strong>: Cette option sera ajouté sur le bon de livraison. Elle pourra cependant être retirée par le logisticien.</p>
+</li>
+<li><p class="first"><strong>Optionnelle</strong>: Celle ci ne sera pas ajoutée sur le bon de livraison. Elle deviendra un option autorisé pouvant être ajouter par la suite sur le bon de livraison.</p>
+</li>
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>Options will be copied from the <em>Delivery Method</em> to the <em>Delivery order</em> when selecting the <em>Delivery method</em> on the <em>Delivery Order</em>.</p>
-<p>Defining options as non mandatory gives liberty for the logistician to do few changes to configure the labels.
-And then when generating the shipping label, options on the delivery order will be used.</p>
-<p class="last">This can be useful to manage extraordinary case manualy on the delivery order.
-e.g. You can add a delivery instruction as optional for rare case when the customer asks to be called when the package arrives.</p>
+<p>Les options seront copiées depuis la <em>Méthode de livraison</em> vers le <em>Bon de livraison</em> lors de la sélection de la <em>Méthode de livraison</em> sur le formulaire du <em>Bon de livraison</em>.</p>
+<p>Définir des options non obligatoires donne la liberté au logisticien de faire quelques changement pour configurer les étiquettes. Et ainsi lors de la génération des étiquette de livraison, les options des bon de livraison seront utilisées.</p>
+<p class="last">Ceci peut être utile pour gérer manuellement les cas exceptionnels sur les bons de livraisons. Ex. Vous pouvez ajouter une instruction de livraison en optionnel pour les rares cas ou le client veut être appelé par téléphone lorsque le colis arrive.</p>
 </div>
-<p>Here is an example of <em>Applied by default</em> option. <em>Applied by Default</em> is checked.</p>
+<p>Voici un exemple d&#8217;option <em>Appliquée par défaut</em>. <em>Appliqué par défaut</em> est coché.</p>
 <img alt="Applied by default option" src="../_images/delivery_method3-option-default.png" />
-<p>And here an optional option, we simply leave empty the two check boxes.</p>
+<p>Et ici une option optionnelle, nous laissons simplement les deux case à cocher vide.</p>
 <img alt="Optional option" src="../_images/delivery_method4-option-optional.png" />
 </div>
 <div class="section" id="output-format">
-<h2>Output format<a class="headerlink" href="#output-format" title="Lien permanent vers ce titre">¶</a></h2>
-<p>You can also add options to override output format. Otherwise the resulting label will be generated using default values set in PostLogistics settings.</p>
+<h2>Format de sortie<a class="headerlink" href="#output-format" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Vous pouvez aussi ajouter des option pour surcharger le format de sortie. Autrement, l&#8217;étiquette résultante sera générée à partir des valeurs par défaut définies dans la configuration PostLogistics.</p>
 <div class="section" id="next-step">
-<h3>Next step<a class="headerlink" href="#next-step" title="Lien permanent vers ce titre">¶</a></h3>
-<p>And we are done for the setup.</p>
-<p>See the next page for <a class="reference internal" href="usage.html#usage"><span class="std std-ref">Usage</span></a>.</p>
+<h3>Prochaine étape<a class="headerlink" href="#next-step" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Et nous en avons terminé pour la configuration.</p>
+<p>Voyez la page suivant pour l&#8217;<a class="reference internal" href="usage.html#usage"><span class="std std-ref">Utilisation</span></a>.</p>
 </div>
 </div>
 </div>
