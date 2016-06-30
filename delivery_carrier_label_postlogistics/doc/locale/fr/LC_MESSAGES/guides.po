@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PostLogistics WSBC 9.0.1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 16:11+0200\n"
+"POT-Creation-Date: 2016-06-30 09:51+0200\n"
 "PO-Revision-Date: 2016-06-29 18:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,8 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 1.8.4\n"
 
 #: ../../guides/configuration.rst:6
 msgid "Configuration"
@@ -25,11 +23,11 @@ msgstr "Configuration"
 
 #: ../../guides/configuration.rst:8
 msgid ""
-"Here you will find how to configure PostLogistics WSBC module we just have "
-"installed."
+"Here you will find how to configure PostLogistics WSBC module we just "
+"have installed."
 msgstr ""
-"Ici vous trouverez comment configurer le module PostLogistics WSBC que nous "
-"venons d'installer."
+"Ici vous trouverez comment configurer le module PostLogistics WSBC que "
+"nous venons d'installer."
 
 #: ../../guides/configuration.rst:10
 msgid "The configuration is done in:"
@@ -38,8 +36,8 @@ msgstr "La configuration se fait dans:"
 #: ../../guides/configuration.rst:12
 msgid "for Odoo 7.0 and 8.0 in *Settings/Configuration/Carriers/Postlogistics*"
 msgstr ""
-"pour Odoo 7.0 et 8.0 dans *Configuration/Configuration/Transporteurs/"
-"Postlogitiscs*"
+"pour Odoo 7.0 et 8.0 dans "
+"*Configuration/Configuration/Transporteurs/Postlogitiscs*"
 
 #: ../../guides/configuration.rst:13
 msgid "for Odoo 9.0 in *Inventory/Settings/Carriers/Postlogistics*"
@@ -55,18 +53,19 @@ msgstr "Remplissez l'utilisateur et les identifiants fournis par PostLogistics."
 
 #: ../../guides/configuration.rst:24
 msgid ""
-"If you want to use a test account you have to activate the \"Test Mode\" check "
-"box."
+"If you want to use a test account you have to activate the \"Test Mode\" "
+"check box."
 msgstr ""
-"Si vous voulez utiliser un compte de test, vous devez activer la case à cocher "
-"\"Test Mode\"."
+"Si vous voulez utiliser un compte de test, vous devez activer la case à "
+"cocher \"Test Mode\"."
 
 #: ../../guides/configuration.rst:26
 msgid ""
-"If you want to use test mode, your setup needs a patch on library ``suds-jurko``."
+"If you want to use test mode, your setup needs a patch on library ``suds-"
+"jurko``."
 msgstr ""
-"Si vous voulez utilisez le mode test, votre installation à besoin d'un patch "
-"pour la librairie ``suds-jurko``."
+"Si vous voulez utilisez le mode test, votre installation à besoin d'un "
+"patch pour la librairie ``suds-jurko``."
 
 #: ../../guides/configuration.rst:28
 msgid "See `suds patch <installation.html#suds_patch>`__."
@@ -78,16 +77,17 @@ msgstr "Licences d'affranchisement"
 
 #: ../../guides/configuration.rst:35
 msgid ""
-"Add one or multiple Franking license. A license is a number of 8 digits provided "
-"by PostLogistics. For each license PostLogistics can enable the use of some "
-"basic services. You can have multiple license. Those will be selectable on setup "
-"of delivery methods, so name them properly."
+"Add one or multiple Franking license. A license is a number of 8 digits "
+"provided by PostLogistics. For each license PostLogistics can enable the "
+"use of some basic services. You can have multiple license. Those will be "
+"selectable on setup of delivery methods, so name them properly."
 msgstr ""
-"Ajoutez une ou plusieurs licences d’affranchissement. Une licence est un nombre "
-"composé de 8 chiffres fourni par PostLogistics. Pour chaque licence, "
-"PostLogistics peut activer des services de base différents. Vous pouvez avoir "
-"plusieurs licences. Celles-ci seront sélectionnable durant la configuration des "
-"méthode de livraison, nommez les afin de pouvoir les retrouver."
+"Ajoutez une ou plusieurs licences d’affranchissement. Une licence est un "
+"nombre composé de 8 chiffres fourni par PostLogistics. Pour chaque "
+"licence, PostLogistics peut activer des services de base différents. Vous"
+" pouvez avoir plusieurs licences. Celles-ci seront sélectionnable durant "
+"la configuration des méthode de livraison, nommez les afin de pouvoir les"
+" retrouver."
 
 #: ../../guides/configuration.rst:44
 msgid "Sender Information"
@@ -98,8 +98,8 @@ msgid ""
 "In Sender information you can optionally define the logo of your company "
 "displayed on labels."
 msgstr ""
-"Dans les informations de l'expéditeur, vous pouvez optionnellement définir le "
-"logo de votre compagnie pour l'afficher sur les étiquettes."
+"Dans les informations de l'expéditeur, vous pouvez optionnellement "
+"définir le logo de votre compagnie pour l'afficher sur les étiquettes."
 
 #: ../../guides/configuration.rst:48
 msgid "Be advised that the format is very restrictive, here are the rules:"
@@ -108,8 +108,8 @@ msgstr "Soyez averti que le format d'image est très restrictif, voici les règl
 #: ../../guides/configuration.rst:50
 msgid "If using an image / logo, please note the following:"
 msgstr ""
-"Veuillez tenir compte des indications suivantes lors de la création de votre "
-"image ou logo:"
+"Veuillez tenir compte des indications suivantes lors de la création de "
+"votre image ou logo:"
 
 #: ../../guides/configuration.rst:52
 msgid "Image width: 47 mm"
@@ -134,16 +134,16 @@ msgstr "Table des couleurs: couleurs indicées, 200 au max"
 #: ../../guides/configuration.rst:57
 msgid "The logo will be printed rotated counter-clockwise by 90°"
 msgstr ""
-"Le logo est imprimé tourné de 90° dans le sens contraire des aiguilles d'une "
-"montre"
+"Le logo est imprimé tourné de 90° dans le sens contraire des aiguilles "
+"d'une montre"
 
 #: ../../guides/configuration.rst:59
 msgid ""
-"PostLogistics recommendations are of using a black and white logo for printing "
-"in the ZPL2 format."
+"PostLogistics recommendations are of using a black and white logo for "
+"printing in the ZPL2 format."
 msgstr ""
-"PostLogistics conseille d'utiliser un logo noir et blanc pour l'impression en "
-"format ZPL2."
+"PostLogistics conseille d'utiliser un logo noir et blanc pour "
+"l'impression en format ZPL2."
 
 #: ../../guides/configuration.rst:61
 msgid "If the logo is not set, company address will be printed on the label."
@@ -153,8 +153,8 @@ msgstr ""
 
 #: ../../guides/configuration.rst:63
 msgid ""
-"Plus you need to specify the Domicile Post office, ask PostLogistics if you are "
-"not sure.  E.g. 3030 Bern"
+"Plus you need to specify the Domicile Post office, ask PostLogistics if "
+"you are not sure.  E.g. 3030 Bern"
 msgstr ""
 "De plus, vous devez spécifier l'office postal de domicile, demandez à "
 "PostLogistics si vous avez un doute. Ex. 3030 Bern"
@@ -165,26 +165,29 @@ msgstr "Configurations par défaut"
 
 #: ../../guides/configuration.rst:69
 msgid ""
-"Default configurations contains format options of labels output. Those will be "
-"applied on all labels defined in all your delivery methods unless you override "
-"it by specifying those format options in delivery method or on the picking."
+"Default configurations contains format options of labels output. Those "
+"will be applied on all labels defined in all your delivery methods unless"
+" you override it by specifying those format options in delivery method or"
+" on the picking."
 msgstr ""
-"Les configurations par défaut contiennent les options de format de sortie des "
-"étiquettes. Celle-ci seront appliqués sur toutes les étiquettes défini dans "
-"toutes vos méthodes de livraison à moins de les redéfinir en spécifiant les "
-"options de format dans la méthode de livraison ou sur le transfert."
+"Les configurations par défaut contiennent les options de format de sortie"
+" des étiquettes. Celle-ci seront appliqués sur toutes les étiquettes "
+"défini dans toutes vos méthodes de livraison à moins de les redéfinir en "
+"spécifiant les options de format dans la méthode de livraison ou sur le "
+"transfert."
 
 #: ../../guides/configuration.rst:75
 msgid "Tracking numbers"
 msgstr "Numéros de tracking"
 
 #: ../../guides/configuration.rst:77
+#, fuzzy
 msgid ""
-"The option tracking numbers allows you choose how is generated the last 8 digits "
-"of the tracking number."
+"The option tracking numbers allows you choose how are generated the last "
+"8 digits of the tracking number."
 msgstr ""
-"L'option de numéro de suivi vous permet de choisir comment sont générés les "
-"derniers 8 chiffres du numéro de suivi."
+"L'option de numéro de suivi vous permet de choisir comment sont générés "
+"les derniers 8 chiffres du numéro de suivi."
 
 #: ../../guides/configuration.rst:79
 msgid "You have two options."
@@ -193,18 +196,18 @@ msgstr "Vous avez deux options."
 #: ../../guides/configuration.rst:81
 msgid "The first is by default, you let PostLogistics define random numbers."
 msgstr ""
-"La première est par défaut, vous laissez au soin de PostLogistics la définition "
-"de nombre aléatoire. "
+"La première est par défaut, vous laissez au soin de PostLogistics la "
+"définition de nombre aléatoire. "
 
 #: ../../guides/configuration.rst:82
 msgid ""
 "The second is to tell Odoo to generate it and send it to the WSBC in the "
-"following format. The 2 first digits are for a pack counter the last 6 digits "
-"are for picking number."
+"following format. The 2 first digits are for a pack counter the last 6 "
+"digits are for picking number."
 msgstr ""
-"La seconde est d'ordonner à Odoo de les générer et de les transmettre à WSBC "
-"dans le format suivant. Les 2 premiers chiffres représentes le compteur de "
-"colis, les derniers 6 chiffres sont le numéro de transfert."
+"La seconde est d'ordonner à Odoo de les générer et de les transmettre à "
+"WSBC dans le format suivant. Les 2 premiers chiffres représentes le "
+"compteur de colis, les derniers 6 chiffres sont le numéro de transfert."
 
 #: ../../guides/configuration.rst:85
 msgid "E.g. ``07000042`` would be the 7th pack of the picking OUT/042"
@@ -212,11 +215,11 @@ msgstr "Ex. ``07000042`` serait le 7ème colis du transfert OUT/042"
 
 #: ../../guides/configuration.rst:87
 msgid ""
-"You can create your own module to change the generation of tracking numbers by "
-"redefining ``_get_number_item()`` method."
+"You can create your own module to change the generation of tracking "
+"numbers by redefining ``_get_number_item()`` method."
 msgstr ""
-"Vous pouvez créer votre propre module pour changer la génération des numéros de "
-"suivi en redéfinissant la méthode ``_get_number_item()``."
+"Vous pouvez créer votre propre module pour changer la génération des "
+"numéros de suivi en redéfinissant la méthode ``_get_number_item()``."
 
 #: ../../guides/configuration.rst:91
 msgid "Synchronize Odoo options with WSBC"
@@ -224,12 +227,13 @@ msgstr "Synchroniser les options Odoo avec WSBC"
 
 #: ../../guides/configuration.rst:93
 msgid ""
-"Once your credentials are set, this will get you the all the WSBC options data "
-"at once. You must do this action before you configure the delivery methods."
+"Once your credentials are set, this will get you the all the WSBC options"
+" data at once. You must do this action before you configure the delivery "
+"methods."
 msgstr ""
-"Une fois que vos identifiants sont entrés, ceci récupérera toute la liste "
-"d'option du WSBC en une fois. Vous devez effectuer cette action avant de pouvoir "
-"définir vos méthodes de livraison."
+"Une fois que vos identifiants sont entrés, ceci récupérera toute la liste"
+" d'option du WSBC en une fois. Vous devez effectuer cette action avant de"
+" pouvoir définir vos méthodes de livraison."
 
 #: ../../guides/configuration.rst:101
 msgid "Assign licenses to Service groups"
@@ -237,14 +241,14 @@ msgstr "Assignez les licences au groupes de service"
 
 #: ../../guides/configuration.rst:103
 msgid ""
-"If you have multiple licenses and those licenses match with a type of service, "
-"you might want to auto configure this. Thus you won't have to select the license "
-"when configuring your delivery methods."
+"If you have multiple licenses and those licenses match with a type of "
+"service, you might want to auto configure this. Thus you won't have to "
+"select the license when configuring your delivery methods."
 msgstr ""
-"Si vous avez plusieurs licences et que ces licences correspondent à un type de "
-"service, vous voudrez probablement configurer automatiquement cela. Ainsi, vous "
-"n'aurez plus besoin de sélectionner la licence quand vous configurerez votre "
-"méthode de livraison."
+"Si vous avez plusieurs licences et que ces licences correspondent à un "
+"type de service, vous voudrez probablement configurer automatiquement "
+"cela. Ainsi, vous n'aurez plus besoin de sélectionner la licence quand "
+"vous configurerez votre méthode de livraison."
 
 #: ../../guides/configuration.rst:111 ../../guides/delivery_method_setup.rst:96
 #: ../../guides/installation.rst:34
@@ -258,8 +262,8 @@ msgstr "Peut-on imprimer une étiquette maintenant ?"
 #: ../../guides/configuration.rst:115
 msgid "No, we are not done yet. The next step is :ref:`delivery_method_setup`."
 msgstr ""
-"Non, nous n'en avons pas terminé. L'étape suivant est de :ref:"
-"`delivery_method_setup`."
+"Non, nous n'en avons pas terminé. L'étape suivant est de "
+":ref:`delivery_method_setup`."
 
 #: ../../guides/delivery_method_setup.rst:5
 msgid "Setting up delivery methods"
@@ -267,21 +271,21 @@ msgstr "Définir des méthodes de livraison"
 
 #: ../../guides/delivery_method_setup.rst:7
 msgid ""
-"Before we can generate our first labels we needs to setup one or multiple "
-"*Delivery Methods* of PostLogistics type."
+"Before we can generate our first labels we needs to setup one or multiple"
+" *Delivery Methods* of PostLogistics type."
 msgstr ""
-"Avant de pouvoir générer nos premières étiquettes nous avons besoin de définir "
-"une ou plusieurs *Méthodes de livraison* du type PostLogistics."
+"Avant de pouvoir générer nos premières étiquettes nous avons besoin de "
+"définir une ou plusieurs *Méthodes de livraison* du type PostLogistics."
 
 #: ../../guides/delivery_method_setup.rst:9
 msgid ""
-"There are several possibilities of option combination. Here we won't enumerate "
-"them all, please refer to `\"Barcode\" web service manual`_ for an exhaustive "
-"list."
+"There are several possibilities of option combination. Here we won't "
+"enumerate them all, please refer to `\"Barcode\" web service manual`_ for"
+" an exhaustive list."
 msgstr ""
-"Il existe de nombreuses combinaison d'option disponibles que nous n'énumérerons "
-"pas ici. Pour en obtenir une liste exhaustive référez vous en au `Manuel "
-"Webservice \"Code à barres\"`_."
+"Il existe de nombreuses combinaison d'option disponibles que nous "
+"n'énumérerons pas ici. Pour en obtenir une liste exhaustive référez vous "
+"en au `Manuel Webservice \"Code à barres\"`_."
 
 #: ../../guides/delivery_method_setup.rst:13
 msgid "Create delivery method"
@@ -289,11 +293,11 @@ msgstr "Créer une méthode de livraison"
 
 #: ../../guides/delivery_method_setup.rst:15
 msgid ""
-"Go in *Inventory/Settings/Delivery/Delivery Methods* and create a new *Delivery "
-"Methods*:"
+"Go in *Inventory/Settings/Delivery/Delivery Methods* and create a new "
+"*Delivery Methods*:"
 msgstr ""
-"Allez dans *Inventaire/Configuration/Livraison/Méthodes de livraison* et créer "
-"un nouvelle *Méthode de livraison* :"
+"Allez dans *Inventaire/Configuration/Livraison/Méthodes de livraison* et "
+"créer un nouvelle *Méthode de livraison* :"
 
 #: ../../guides/delivery_method_setup.rst:20
 msgid "Here are the steps to configure your *Delivery Method*:"
@@ -309,22 +313,25 @@ msgstr "Choisissez *PostLogistics* dans le champs **Type**"
 
 #: ../../guides/delivery_method_setup.rst:24
 msgid ""
-"Choose a **PostLogistics Service Group**. Refer to `\"Barcode\" web service "
-"manual`_ to know which services are included in each group. You most likely want "
-"to select \"Parcel\" service group here."
+"Choose a **PostLogistics Service Group**. Refer to `\"Barcode\" web "
+"service manual`_ to know which services are included in each group. You "
+"most likely want to select \"Parcel\" service group here."
 msgstr ""
-"Choisissez un *Groupe de service*. Référer vous au `Manuel Webservice \"Code à "
-"barres\"`_ pour savoir quel service est inclut dans chaque groupe. Ici, vous "
-"allez probablement vouloir sélectionner le groupe de service \"Colis\"."
+"Choisissez un *Groupe de service*. Référer vous au `Manuel Webservice "
+"\"Code à barres\"`_ pour savoir quel service est inclut dans chaque "
+"groupe. Ici, vous allez probablement vouloir sélectionner le groupe de "
+"service \"Colis\"."
 
 #: ../../guides/delivery_method_setup.rst:26
 msgid ""
-"Optionally select a license. If you have done the step to with the button "
-"*Assign PostLogistics to service groups* it will try detect which license to use."
+"Optionally select a license. If you have done the step to with the button"
+" *Assign PostLogistics to service groups* it will try detect which "
+"license to use."
 msgstr ""
-"Optionnellement sélectionnez une licence. Si vous avez effectuer l'étape avec le "
-"bouton *Assigner les licences PostLogistics à un groupe de service* un essai de "
-"détection sera effectué pour savoir quelle licence utiliser."
+"Optionnellement sélectionnez une licence. Si vous avez effectuer l'étape "
+"avec le bouton *Assigner les licences PostLogistics à un groupe de "
+"service* un essai de détection sera effectué pour savoir quelle licence "
+"utiliser."
 
 #: ../../guides/delivery_method_setup.rst:27
 msgid "Choose **Transporter company** selecting *PostLogistics*"
@@ -333,7 +340,8 @@ msgstr "Définissez la **Société de transport** en sélectionnant *PostLogisti
 #: ../../guides/delivery_method_setup.rst:29
 msgid "Save (This is an important step as it will refresh the available options)"
 msgstr ""
-"Sauvez (Cette étape est important car elle va rafraîchir les options disponible)"
+"Sauvez (Cette étape est important car elle va rafraîchir les options "
+"disponible)"
 
 #: ../../guides/delivery_method_setup.rst:33
 msgid "Basic service"
@@ -359,13 +367,13 @@ msgstr ""
 
 #: ../../guides/delivery_method_setup.rst:46
 msgid ""
-"If your option is not there change the service group, for example you are "
-"looking for *Bulky goods \"Lightning\"* this one is in *Swiss-Express / Swiss-"
-"Courier* service group."
+"If your option is not there change the service group, for example you are"
+" looking for *Bulky goods \"Lightning\"* this one is in *Swiss-Express / "
+"Swiss-Courier* service group."
 msgstr ""
-"Si votre option n'est pas la essayez de sélectionner un autre groupe de service, "
-"par exemple si vous cherchez *Encombrant \"Eclair\"* celui ci est dans le groupe "
-"de service *Exprès / Coursier*."
+"Si votre option n'est pas la essayez de sélectionner un autre groupe de "
+"service, par exemple si vous cherchez *Encombrant \"Eclair\"* celui ci "
+"est dans le groupe de service *Exprès / Coursier*."
 
 #: ../../guides/delivery_method_setup.rst:48
 msgid "*Save and close*"
@@ -377,11 +385,11 @@ msgstr "*Sauvegarder* la *Méthode de livraison*"
 
 #: ../../guides/delivery_method_setup.rst:51
 msgid ""
-"The delivery method is ready to be used. However, you might want to add some "
-"optional services and/or delivery instructions to it."
+"The delivery method is ready to be used. However, you might want to add "
+"some optional services and/or delivery instructions to it."
 msgstr ""
-"La méthode de livraison est prête à l'emploi. Cependant, vous pourriez vouloir "
-"ajouter quelques services et/ou des instructions de livraison."
+"La méthode de livraison est prête à l'emploi. Cependant, vous pourriez "
+"vouloir ajouter quelques services et/ou des instructions de livraison."
 
 #: ../../guides/delivery_method_setup.rst:56
 msgid "Optional services and delivery instructions"
@@ -389,17 +397,19 @@ msgstr "Services optionnels et instructions de livraison"
 
 #: ../../guides/delivery_method_setup.rst:58
 msgid ""
-"Make sure you have saved the *Delivery Method* when setting the *Basic service* "
-"(We need to refresh the list of options, once refreshed delivery instruction "
-"will be available)."
+"Make sure you have saved the *Delivery Method* when setting the *Basic "
+"service* (We need to refresh the list of options, once refreshed delivery"
+" instruction will be available)."
 msgstr ""
-"Assurez vous que vous avez sauvegardé la *Méthode de livraison* lors de la "
-"configuration du *Service de base* (Nous devons rafraîchir la liste d'options, "
-"une fois rafraîchie les instructions de livraison seront disponible)."
+"Assurez vous que vous avez sauvegardé la *Méthode de livraison* lors de "
+"la configuration du *Service de base* (Nous devons rafraîchir la liste "
+"d'options, une fois rafraîchie les instructions de livraison seront "
+"disponible)."
 
 #: ../../guides/delivery_method_setup.rst:60
 msgid ""
-"Now you can set as many other options and delivery instructions as you need."
+"Now you can set as many other options and delivery instructions as you "
+"need."
 msgstr ""
 "Maintenant vous pouvez définir autant d'autre option et d'instruction de "
 "livraison dont vous avez besoin."
@@ -410,76 +420,76 @@ msgstr "Il y a 3 types d'options:"
 
 #: ../../guides/delivery_method_setup.rst:64
 msgid ""
-"**Mandatory**: Each Delivery order with this delivery method will have this "
-"option. It is a good practice to set the basic service (e.g. ECO) as mandatory "
-"as you want always a basic service when generating labels."
+"**Mandatory**: Each Delivery order with this delivery method will have "
+"this option. It is a good practice to set the basic service (e.g. ECO) as"
+" mandatory as you want always a basic service when generating labels."
 msgstr ""
-"**Obligatoire** : Chaque bon de livraison avec cette méthode de livraison aura "
-"cette option. C'est une bonne pratique de définir le service de base (ex. ECO) "
-"en obligatoire car vous aurez toujours besoin d'un service de base lors de la "
-"génération d'étiquette."
+"**Obligatoire** : Chaque bon de livraison avec cette méthode de livraison"
+" aura cette option. C'est une bonne pratique de définir le service de "
+"base (ex. ECO) en obligatoire car vous aurez toujours besoin d'un service"
+" de base lors de la génération d'étiquette."
 
 #: ../../guides/delivery_method_setup.rst:65
 msgid ""
-"**Applied by default**: This option will be added on the delivery order. This "
-"one can be removed by the logistician."
+"**Applied by default**: This option will be added on the delivery order. "
+"This one can be removed by the logistician."
 msgstr ""
-"**Appliqué par défaut**: Cette option sera ajouté sur le bon de livraison. Elle "
-"pourra cependant être retirée par le logisticien."
+"**Appliqué par défaut**: Cette option sera ajouté sur le bon de "
+"livraison. Elle pourra cependant être retirée par le logisticien."
 
 #: ../../guides/delivery_method_setup.rst:66
 msgid ""
-"**Optional**: This one won't be added on the delivery order. It becomes an "
-"allowed option, settable on the delivery order."
+"**Optional**: This one won't be added on the delivery order. It becomes "
+"an allowed option, settable on the delivery order."
 msgstr ""
-"**Optionnelle**: Celle ci ne sera pas ajoutée sur le bon de livraison. Elle "
-"deviendra un option autorisé pouvant être ajouter par la suite sur le bon de "
-"livraison."
+"**Optionnelle**: Celle ci ne sera pas ajoutée sur le bon de livraison. "
+"Elle deviendra un option autorisé pouvant être ajouter par la suite sur "
+"le bon de livraison."
 
 #: ../../guides/delivery_method_setup.rst:68
 msgid ""
-"Options will be copied from the *Delivery Method* to the *Delivery order* when "
-"selecting the *Delivery method* on the *Delivery Order*."
+"Options will be copied from the *Delivery Method* to the *Delivery order*"
+" when selecting the *Delivery method* on the *Delivery Order*."
 msgstr ""
-"Les options seront copiées depuis la *Méthode de livraison* vers le *Bon de "
-"livraison* lors de la sélection de la *Méthode de livraison* sur le formulaire "
-"du *Bon de livraison*."
+"Les options seront copiées depuis la *Méthode de livraison* vers le *Bon "
+"de livraison* lors de la sélection de la *Méthode de livraison* sur le "
+"formulaire du *Bon de livraison*."
 
 #: ../../guides/delivery_method_setup.rst:70
 msgid ""
-"Defining options as non mandatory gives liberty for the logistician to do few "
-"changes to configure the labels. And then when generating the shipping label, "
-"options on the delivery order will be used."
+"Defining options as non mandatory gives liberty for the logistician to do"
+" few changes to configure the labels. And then when generating the "
+"shipping label, options on the delivery order will be used."
 msgstr ""
-"Définir des options non obligatoires donne la liberté au logisticien de faire "
-"quelques changement pour configurer les étiquettes. Et ainsi lors de la "
-"génération des étiquette de livraison, les options des bon de livraison seront "
-"utilisées."
+"Définir des options non obligatoires donne la liberté au logisticien de "
+"faire quelques changement pour configurer les étiquettes. Et ainsi lors "
+"de la génération des étiquette de livraison, les options des bon de "
+"livraison seront utilisées."
 
 #: ../../guides/delivery_method_setup.rst:73
 msgid ""
-"This can be useful to manage extraordinary case manualy on the delivery order. e."
-"g. You can add a delivery instruction as optional for rare case when the "
-"customer asks to be called when the package arrives."
+"This can be useful to manage extraordinary case manualy on the delivery "
+"order. e.g. You can add a delivery instruction as optional for rare case "
+"when the customer asks to be called when the package arrives."
 msgstr ""
-"Ceci peut être utile pour gérer manuellement les cas exceptionnels sur les bons "
-"de livraisons. Ex. Vous pouvez ajouter une instruction de livraison en optionnel "
-"pour les rares cas ou le client veut être appelé par téléphone lorsque le colis "
-"arrive."
+"Ceci peut être utile pour gérer manuellement les cas exceptionnels sur "
+"les bons de livraisons. Ex. Vous pouvez ajouter une instruction de "
+"livraison en optionnel pour les rares cas ou le client veut être appelé "
+"par téléphone lorsque le colis arrive."
 
 #: ../../guides/delivery_method_setup.rst:77
 msgid ""
-"Here is an example of *Applied by default* option. *Applied by Default* is "
-"checked."
+"Here is an example of *Applied by default* option. *Applied by Default* "
+"is checked."
 msgstr ""
-"Voici un exemple d'option *Appliquée par défaut*. *Appliqué par défaut* est "
-"coché."
+"Voici un exemple d'option *Appliquée par défaut*. *Appliqué par défaut* "
+"est coché."
 
 #: ../../guides/delivery_method_setup.rst:82
 msgid "And here an optional option, we simply leave empty the two check boxes."
 msgstr ""
-"Et ici une option optionnelle, nous laissons simplement les deux case à cocher "
-"vide."
+"Et ici une option optionnelle, nous laissons simplement les deux case à "
+"cocher vide."
 
 #: ../../guides/delivery_method_setup.rst:89
 msgid "Output format"
@@ -487,12 +497,13 @@ msgstr "Format de sortie"
 
 #: ../../guides/delivery_method_setup.rst:91
 msgid ""
-"You can also add options to override output format. Otherwise the resulting "
-"label will be generated using default values set in PostLogistics settings."
+"You can also add options to override output format. Otherwise the "
+"resulting label will be generated using default values set in "
+"PostLogistics settings."
 msgstr ""
-"Vous pouvez aussi ajouter des option pour surcharger le format de sortie. "
-"Autrement, l'étiquette résultante sera générée à partir des valeurs par défaut "
-"définies dans la configuration PostLogistics."
+"Vous pouvez aussi ajouter des option pour surcharger le format de sortie."
+" Autrement, l'étiquette résultante sera générée à partir des valeurs par "
+"défaut définies dans la configuration PostLogistics."
 
 #: ../../guides/delivery_method_setup.rst:98
 msgid "And we are done for the setup."
@@ -508,11 +519,11 @@ msgstr "Installation"
 
 #: ../../guides/installation.rst:7
 msgid ""
-"In order to install PostLogistics WSBC module, make sure you have the following "
-"requirements and Odoo dependencies on your system."
+"In order to install PostLogistics WSBC module, make sure you have the "
+"following requirements and Odoo dependencies on your system."
 msgstr ""
-"Afin d'installer PostLogistics WSBC module, assurez vous que vous avez les "
-"prérequis suivant et les dépendances Odoo sur votre système."
+"Afin d'installer PostLogistics WSBC module, assurez vous que vous avez "
+"les prérequis suivant et les dépendances Odoo sur votre système."
 
 #: ../../guides/installation.rst:11
 msgid "Requirements"
@@ -520,25 +531,25 @@ msgstr "Prérequis"
 
 #: ../../guides/installation.rst:13
 msgid ""
-"To use this module you need to install `suds-jurko`_ library (A library to "
-"manage SOAP calls)"
+"To use this module you need to install `suds-jurko`_ library (A library "
+"to manage SOAP calls)"
 msgstr ""
-"Pour utiliser ce module vous devez installer la librairie `suds-jurko`_ (Une "
-"librairie python pour gérer les appels SOAP)"
+"Pour utiliser ce module vous devez installer la librairie `suds-jurko`_ "
+"(Une librairie python pour gérer les appels SOAP)"
 
 #: ../../guides/installation.rst:16
 msgid "Make sure you use it over the unmaintained `suds` library."
 msgstr ""
-"Assurez vous d'utiliser cette version plutôt que la librairie non maintenue "
-"`suds`."
+"Assurez vous d'utiliser cette version plutôt que la librairie non "
+"maintenue `suds`."
 
 #: ../../guides/installation.rst:20
 msgid ""
-"In case you want to use the test mode for developpement purpose, you will have "
-"to patch the library with the following patch."
+"In case you want to use the test mode for developpement purpose, you will"
+" have to patch the library with the following patch."
 msgstr ""
-"Dans le cas ou vous voulez utiliser le mode test pour du développement, vous "
-"devrez patcher la librairie avec le patch suivant."
+"Dans le cas ou vous voulez utiliser le mode test pour du développement, "
+"vous devrez patcher la librairie avec le patch suivant."
 
 #: ../../guides/installation.rst:22
 msgid "https://fedorahosted.org/suds/attachment/ticket/239/suds_recursion.patch"
@@ -550,22 +561,26 @@ msgstr "Dépendances Odoo"
 
 #: ../../guides/installation.rst:29
 msgid ""
-"This module depends on module `base_delivery_carrier_label` you will find in the "
-"same module repository on https://github.com/OCA/carrier-delivery/"
+"This module depends on module `base_delivery_carrier_label` you will find"
+" in the same module repository on https://github.com/OCA/carrier-"
+"delivery/"
 msgstr ""
-"Ce module dépend du module `base_delivery_carrier_label`. Vous le trouverez dans "
-"le même dépôt de module sur https://github.com/OCA/carrier-delivery/"
+"Ce module dépend du module `base_delivery_carrier_label`. Vous le "
+"trouverez dans le même dépôt de module sur https://github.com/OCA"
+"/carrier-delivery/"
 
 #: ../../guides/installation.rst:31
+#, fuzzy
 msgid ""
-"Plus, if you are not using this module with automated tools, you will want to "
-"install **Attachments List and Document Indexation** (`document`) module. "
-"Otherwise you want be able to use the labels as they are created as attachments."
+"Plus, if you are not using this module with automated tools, you will "
+"want to install **Attachments List and Document Indexation** (`document`)"
+" module. Otherwise you won't be able to see the labels as they are "
+"created as attachments."
 msgstr ""
-"De plus, si vous n'utilisez pas ce module avec des outils d'automatisation, vous "
-"voudrez installer le module **Attachments List and Document Indexation** "
-"(`document'). Autrement, vous ne pourrez pas voir les étiquettes car elles sont "
-"créées en tant qu'attachements."
+"De plus, si vous n'utilisez pas ce module avec des outils "
+"d'automatisation, vous voudrez installer le module **Attachments List and"
+" Document Indexation** (`document'). Autrement, vous ne pourrez pas voir "
+"les étiquettes car elles sont créées en tant qu'attachements."
 
 #: ../../guides/installation.rst:36
 msgid ":ref:`configuration`"
@@ -577,11 +592,11 @@ msgstr "Utilisation"
 
 #: ../../guides/usage.rst:8
 msgid ""
-"Now that we are set, we can use our *Delivery methods* in *Sales orders* and "
-"*Delivery orders*."
+"Now that we are set, we can use our *Delivery methods* in *Sales orders* "
+"and *Delivery orders*."
 msgstr ""
-"Maintenant que nous en avons terminé, nous pouvons utiliser nos *Méthodes de "
-"livraison* dans les *Commandes* et les *Bons de livraison*."
+"Maintenant que nous en avons terminé, nous pouvons utiliser nos *Méthodes"
+" de livraison* dans les *Commandes* et les *Bons de livraison*."
 
 #: ../../guides/usage.rst:10
 msgid "Labels can be generated in two ways."
@@ -601,18 +616,19 @@ msgstr "Voici l'étiquette que nous allons générer."
 
 #: ../../guides/usage.rst:20
 msgid ""
-"To use packages, you should enable option *Record packages used on packing* in "
-"*Inventory/Settings*."
+"To use packages, you should enable option *Record packages used on "
+"packing* in *Inventory/Settings*."
 msgstr ""
-"Pour utiliser les colis, vous devez activer l'option *Enregister les colis à "
-"utiliser: palettes, boîtes, ...* dans *Inventaire/Configuration*."
+"Pour utiliser les colis, vous devez activer l'option *Enregister les "
+"colis à utiliser: palettes, boîtes, ...* dans *Inventaire/Configuration*."
 
 #: ../../guides/usage.rst:22
 msgid ""
-"Here is how to use our *Delivery methods* when creating a new *Delivery Order*."
+"Here is how to use our *Delivery methods* when creating a new *Delivery "
+"Order*."
 msgstr ""
-"Voici comment utiliser notre *Méthode de livraison* lors de la création d'un "
-"nouveau *Bon de livraison*."
+"Voici comment utiliser notre *Méthode de livraison* lors de la création "
+"d'un nouveau *Bon de livraison*."
 
 #: ../../guides/usage.rst:26
 msgid "Select a Carrier"
@@ -620,12 +636,13 @@ msgstr "Sélectionner un transporteur"
 
 #: ../../guides/usage.rst:28
 msgid ""
-"In tab **Additional Info** select the delivery method we created under field "
-"carrier. This action will copy the mandatory options and the options by default."
+"In tab **Additional Info** select the delivery method we created under "
+"field carrier. This action will copy the mandatory options and the "
+"options by default."
 msgstr ""
-"Dans l'onglet **Informations complementaires.** sélectionnez la méthode de "
-"livraison que nous avons créé dans le champs **Transporteur**. Cette action "
-"copiera les options obligatoires et les options par défaut."
+"Dans l'onglet **Informations complementaires.** sélectionnez la méthode "
+"de livraison que nous avons créé dans le champs **Transporteur**. Cette "
+"action copiera les options obligatoires et les options par défaut."
 
 #: ../../guides/usage.rst:36
 msgid "Choose options"
@@ -633,20 +650,21 @@ msgstr "Sélectionner des options"
 
 #: ../../guides/usage.rst:38
 msgid ""
-"Optionally, add or remove options. Only the options you have configured in the "
-"*Delivery Method* will me available."
+"Optionally, add or remove options. Only the options you have configured "
+"in the *Delivery Method* will me available."
 msgstr ""
-"Optionnellement, ajoutez ou retirez des options. Seulement, les options que vous "
-"avez configuré dans la *Méthode de livraison* seront disponibles."
+"Optionnellement, ajoutez ou retirez des options. Seulement, les options "
+"que vous avez configuré dans la *Méthode de livraison* seront "
+"disponibles."
 
 #: ../../guides/usage.rst:40
 msgid ""
-"In next capture your see that only ZAW3213 is available. This is because we "
-"added in as optional option in the *Delivery Method*."
+"In next capture your see that only ZAW3213 is available. This is because "
+"we added in as optional option in the *Delivery Method*."
 msgstr ""
-"Dans la capture d'écran suivante vous pouvez voir que seule l'option ZAW3213 est "
-"disponible. La raison est que nous l'avons précédemment ajouté en temps "
-"qu'option optionnelle dans la *Méthode de livraison*."
+"Dans la capture d'écran suivante vous pouvez voir que seule l'option "
+"ZAW3213 est disponible. La raison est que nous l'avons précédemment "
+"ajouté en temps qu'option optionnelle dans la *Méthode de livraison*."
 
 #: ../../guides/usage.rst:48
 msgid "Delivery instructions"
@@ -654,15 +672,15 @@ msgstr "Instructions de livraison"
 
 #: ../../guides/usage.rst:50
 msgid ""
-"For delivery instruction (Options with ZAW code) you will find the extra fields "
-"to fill under options when extra data is required. E.g. You can define phone "
-"number for *ZAW3213* for phone notification."
+"For delivery instruction (Options with ZAW code) you will find the extra "
+"fields to fill under options when extra data is required. E.g. You can "
+"define phone number for *ZAW3213* for phone notification."
 msgstr ""
-"Pour les instructions de livraison (Les options commençant par le code ZAW) vous "
-"trouverez des champs supplémentaires à remplir en dessous de la liste d'option "
-"quand une option requiert des information supplémentaires. Ex. Vous pouvez "
-"définir le numéro de téléphone pour l'option *ZAW3213* pour la notification par "
-"téléphone."
+"Pour les instructions de livraison (Les options commençant par le code "
+"ZAW) vous trouverez des champs supplémentaires à remplir en dessous de la"
+" liste d'option quand une option requiert des information "
+"supplémentaires. Ex. Vous pouvez définir le numéro de téléphone pour "
+"l'option *ZAW3213* pour la notification par téléphone."
 
 #: ../../guides/usage.rst:55
 msgid "Generate Label(s)"
@@ -670,13 +688,13 @@ msgstr "Générer des étiquettes"
 
 #: ../../guides/usage.rst:57
 msgid ""
-"Once your picking is in state *Done*, you can generate the labels. If you are "
-"using packs, one label per pack will be generated with a different tracking "
-"number."
+"Once your picking is in state *Done*, you can generate the labels. If you"
+" are using packs, one label per pack will be generated with a different "
+"tracking number."
 msgstr ""
-"Une fois que votre bon de livraison est dans l'état *Terminé*, vous pouvez "
-"générer les étiquettes. Si vous utilisez des colis, une étiquette par colis sera "
-"générée avec un numéro de suivi différent."
+"Une fois que votre bon de livraison est dans l'état *Terminé*, vous "
+"pouvez générer les étiquettes. Si vous utilisez des colis, une étiquette "
+"par colis sera générée avec un numéro de suivi différent."
 
 #: ../../guides/usage.rst:60
 msgid "Use the button on the top left to launch the generation."
@@ -695,8 +713,8 @@ msgid ""
 "To see attachment you need **Attachments List and Document Indexation** "
 "(`document`) module."
 msgstr ""
-"Pour voir les attachements vous avez besoin du module **Attachments List and "
-"Document Indexation** (`document`)."
+"Pour voir les attachements vous avez besoin du module **Attachments List "
+"and Document Indexation** (`document`)."
 
 #: ../../guides/usage.rst:79
 msgid "Where can I get the tracking reference?"
@@ -704,18 +722,21 @@ msgstr "Où puis-je obtenir la référence de suivi ?"
 
 #: ../../guides/usage.rst:81
 msgid ""
-"Once you have generated the labels, your tracking reference will be written:"
+"Once you have generated the labels, your tracking reference will be "
+"written:"
 msgstr ""
-"Une fois que vous aurez générer les étiquettes, vos numéro de suivi seront "
-"inscrit:"
+"Une fois que vous aurez générer les étiquettes, vos numéro de suivi "
+"seront inscrit:"
 
 #: ../../guides/usage.rst:84
 msgid "In **Carrier Tracking Ref** field on picking if you are not using packs."
 msgstr ""
-"Dans le champs **Référence de suivi du transporteur** sur le transfert si vous "
-"n'utilisez pas les colis."
+"Dans le champs **Référence de suivi du transporteur** sur le transfert si"
+" vous n'utilisez pas les colis."
 
 #: ../../guides/usage.rst:88
 msgid "In **Parcel Tracking** field on package if you are using packages."
 msgstr ""
-"Dans le champs **Parcel Tracking** sur le colis si vous utilisez les colis."
+"Dans le champs **Parcel Tracking** sur le colis si vous utilisez les "
+"colis."
+
